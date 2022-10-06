@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AcertPix Example</string>
+    <string name="btn_liveness_demo_label">Liveness demo</string>
+    <string name="btn_device_data_label">Device data</string>
+    <string name="btn_document_detector_demo_label">Document capture</string>
+    <string name="selfie_preview_label">Selfie preview</string>
+    <string name="label_btn_ok">OK</string>
+</resources>

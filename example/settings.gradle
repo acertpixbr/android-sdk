@@ -1,0 +1,23 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url = GITHUB_MAVEN_REPO_URL
+            credentials {
+                username = GITHUB_MAVEN_REPO_USERNAME
+                password = GITHUB_MAVEN_REPO_PASSWORD
+            }
+        }
+    }
+}
+rootProject.name = "AcertPix Example"
+include ':app'
